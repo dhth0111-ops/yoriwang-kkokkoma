@@ -1,0 +1,31 @@
+{
+  "name": "요리왕 꼬꼬마",
+  "short_name": "요리왕꼬꼬마",
+  "id": "./?app=yoriwang-v35-dev-fix4",
+  "start_url": "./index.html?app=v35-dev-fix4",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff7fa",
+  "theme_color": "#ef78a5",
+  "icons": [
+    {
+      "src": "kkokkoma-icon-192-v34.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "kkokkoma-icon-512-v34.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "description": "가족 레시피와 제품 사진·구매처·구매 링크를 저장하는 요리왕 꼬꼬마 앱",
+  "prefer_related_applications": false
+}

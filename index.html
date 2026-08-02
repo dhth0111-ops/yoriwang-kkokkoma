@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#ef78a5">
+<title>요리왕 꼬꼬마</title>
+<link rel="manifest" href="manifest.json?v=3.5-dev-fix4">
+<link rel="icon" type="image/png" sizes="192x192" href="kkokkoma-icon-192-v34.png?v=3.5">
+<link rel="apple-touch-icon" href="kkokkoma-icon-192-v34.png?v=3.5">
+<link rel="stylesheet" href="style.css?v=3.5-dev-fix4">
+</head>
+<body>
+<div class="app-shell">
+<header class="hero">
+  <img class="home-banner" src="home-banner.png" alt="요리왕 꼬꼬마 - 맛있는 행복을 요리해요">
+  <label class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="레시피 이름이나 재료 검색"></label>
+</header>
+<main id="main"></main>
+<nav class="bottom-nav" aria-label="하단 메뉴">
+  <button data-tab="home" class="nav-btn active"><span>🍳</span><b>레시피</b></button>
+  <button data-tab="categories" class="nav-btn"><span>📂</span><b>카테고리</b></button>
+  <button data-tab="favorites" class="nav-btn"><span>❤️</span><b>즐겨찾기</b></button>
+  <button data-tab="shopping" class="nav-btn"><span>🛒</span><b>장보기</b></button>
+  <button data-tab="settings" class="nav-btn"><span>⚙️</span><b>설정</b></button>
+</nav>
+<button id="fab" class="fab" aria-label="레시피 추가">＋</button>
+<input id="importFile" type="file" accept="application/json,.json" hidden>
+</div>
+<script src="app.js?v=3.5-dev-fix4"></script>
+</body></html>
