@@ -1,10 +1,10 @@
-const CACHE="yoriwang-v3.5-dev-fix4-20260731";
+const CACHE="yoriwang-v3.6-firebase-20260731";
 const ASSETS=[
   "./",
   "./index.html",
-  "./style.css?v=3.5-dev-fix4",
-  "./app.js?v=3.5-dev-fix4",
-  "./manifest.json?v=3.5-dev-fix4",
+  "./style.css?v=3.6-firebase",
+  "./app.js?v=3.6-firebase",
+  "./manifest.json?v=3.6-firebase",
   "./home-banner.png",
   "./kkokkoma-icon-192-v34.png",
   "./kkokkoma-icon-512-v34.png",
