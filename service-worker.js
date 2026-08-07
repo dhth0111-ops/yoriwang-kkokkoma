@@ -1,10 +1,10 @@
-const CACHE="yoriwang-v3.6-firebase-20260731";
+const CACHE="yoriwang-v3.6.5-card-inline-20260807";
 const ASSETS=[
   "./",
   "./index.html",
-  "./style.css?v=3.6-firebase",
-  "./app.js?v=3.6-firebase",
-  "./manifest.json?v=3.6-firebase",
+  "./style.css?v=3.6.5-card-inline",
+  "./app.js?v=3.6.5-card-inline",
+  "./manifest.json?v=3.6.5-card-inline",
   "./home-banner.png",
   "./kkokkoma-icon-192-v34.png",
   "./kkokkoma-icon-512-v34.png",

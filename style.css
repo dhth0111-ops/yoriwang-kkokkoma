@@ -66,3 +66,83 @@
   object-fit:contain;
   object-position:center;
 }
+
+
+/* V3.6.1 Fixed recipe card background */
+.recipe-card,
+.recipe-item,
+.card,
+.recipe-list .card,
+.recipe {
+  background:#f7f7f7 !important;
+  background-image:none !important;
+  opacity:1 !important;
+}
+
+
+/* V3.6.3: recipe card body uses one fixed color regardless of photo brightness */
+.card,
+.recipe-card,
+.recipe-item,
+.recipe-list .card,
+.recipe{
+  background:#f7f7f7 !important;
+  background-image:none !important;
+  opacity:1 !important;
+}
+.card .card-body,
+.recipe-card .card-body,
+.recipe-item .card-body,
+.recipe .card-body{
+  background:#f7f7f7 !important;
+  background-image:none !important;
+  opacity:1 !important;
+}
+
+/* V3.6.4: recipe card text area fixed pure white */
+.card,
+.recipe-card,
+.recipe-item,
+.recipe-list .card,
+.recipe{
+  background:#ffffff !important;
+  background-color:#ffffff !important;
+  background-image:none !important;
+  opacity:1 !important;
+}
+.card .card-body,
+.recipe-card .card-body,
+.recipe-item .card-body,
+.recipe .card-body{
+  background:#ffffff !important;
+  background-color:#ffffff !important;
+  background-image:none !important;
+  opacity:1 !important;
+  filter:none !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+}
+.card .card-body::before,
+.card .card-body::after{
+  background:none !important;
+  background-image:none !important;
+  opacity:0 !important;
+}
+
+
+/* V3.6.5: hard-fix recipe card text background, including inline render class */
+article.card.recipe-card-fixed,
+article.card.recipe-card-fixed > .card-body.recipe-card-body-fixed{
+  background:#ffffff !important;
+  background-color:#ffffff !important;
+  background-image:none !important;
+  opacity:1 !important;
+  filter:none !important;
+  mix-blend-mode:normal !important;
+  isolation:isolate !important;
+}
+article.card.recipe-card-fixed > .card-body.recipe-card-body-fixed::before,
+article.card.recipe-card-fixed > .card-body.recipe-card-body-fixed::after{
+  content:none !important;
+  display:none !important;
+}
